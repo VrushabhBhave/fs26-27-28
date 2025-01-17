@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+    </head>
+    <body>
+        <!-- input, radio, checkbox, textarea, select, button, label  -->
+        <!-- required, autofocus, autocapitalize, autocomplete:- auto complete do not work without name, novalidate -->
+        <!-- method: get :: tells the browser  to send data via URL -->
+        <!-- method: post :: tells the browser to send data via HTTP POST method -->
+        <form method="post" action="index.html">
+            <div>
+                <label for="name">Name</label>
+                <input id="name" type="text" name="name" placeholder="Enter your name" required autofocus/>
+            </div>
+            <div>
+                <label for="pass">Password</label>
+                <input id="pass" type="password" name="" placeholder="Enter your password" required/>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input id="email" type="email" name="" placeholder="Enter a valid email" />
+            </div>
+
+            <div>
+                <label>Gender</label>
+                <input type="radio" name="gen" value="male">Male
+                <input type="radio" name="gen" value="female">Female
+                <input type="radio" name="gen" value="other">Other
+            </div>
+
+            <div>
+                <label for="">Hobbies</label>
+                <input type="checkbox"  value="read">Reading
+                <input type="checkbox"  value="sleep">Sleeping
+                <input type="checkbox"  value="dance">Dancing
+                <input type="checkbox"  value="game">Gaming
+                <input type="checkbox"  value="eat">eating
+                <input type="checkbox"  value="reels">Watching reels
+            </div>
+
+            <div>
+                <!-- multiple -->
+                <label for="qual">Qualification</label>
+                <select name="qual" id="qual"> 
+                    <option value="" disabled selected>Select Highest Qualification</option>
+                    <option value="xii">XII</option>
+                    <option value="grad">Graduate</option>
+                    <option value="pq">Post Graduate</option>
+                    <option value="phd">Doctarate</option>
+                </select>
+            </div>
+
+            <!-- <div>
+                <label for="datalist">Qualification</label>
+                <input type="text" placeholder="Enter Highest Qualification" list="datalist" />
+                <datalist id="datalist">
+                    <option value="xii">XII</option>
+                    <option value="grad">Graduate</option>
+                    <option value="pq">Post Graduate</option>
+                    <option value="phd">Doctarate</option>
+                </datalist>
+            </div> -->
+
+            <div>
+                <label for="address">Address</label>
+                <textarea name="address" id="address" placeholder="Address" cols="15" rows="5"></textarea>
+                <!-- style="resize: none"  it is used to fixed the size of textarea using css -->
+            </div>
+
+
+            <!-- input types -->
+            <div>
+                <label for="">Color</label>
+                <input type="color">
+            </div>
+
+            <div>
+                <label for="">Age</label>
+                <input type="number" placeholder="Enter your age" min="1" max="100" step="20">
+            </div>
+
+            <div>
+                <label for="">Price Range</label>
+                <input type="range" min="1000" max="10000" step="1000"/>
+            </div>
+
+            <div>
+                <label for="">DOB</label>
+                <input type="date">
+            </div>
+
+            <div>
+                <label for="">Resume</label>
+                <input type="file">
+            </div>
+
+            <button type="submit">Register</button>
+            <button type="reset">Reset</button>
+        </form>
+
+        <!-- INSIDE FORM NOT USE INPUT TYPE BUTTON OR BUTTON TYPE BUTTON  -->
+        <!-- <input type="button" value="">
+        <button type="button"></button> -->
+    </body>
+</html>
