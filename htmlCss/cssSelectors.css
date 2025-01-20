@@ -1,0 +1,37 @@
+/* li{
+    color: red;
+} */
+
+/* ul li{
+    color: red;
+} */
+
+/* .red{
+    color: red;
+} */
+
+/* .redColor li{
+    color: red;
+} */
+
+/* Grouping Selectors */
+/* .redColor li, h2{
+    color: red;
+} */
+
+/* Descendent combinator (space)
+Child combinator (>)
+Next sibling combinator (+)
+Subsequent-sibling combinator (~) */
+
+.top h1{
+    font-size: 50px;
+}
+
+.top > h1{
+    color: purple;
+}
+
+.top > ul > h1{
+    border: 2px solid black;
+}

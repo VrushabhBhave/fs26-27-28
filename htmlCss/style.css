@@ -1,0 +1,14 @@
+p{
+    color: red;
+}
+
+/* id are denoted #
+class are denoted . */
+
+#orange{
+    color: orange;
+}
+
+.green{
+    color: green;
+}

@@ -8,10 +8,10 @@
         <!-- required, autofocus, autocapitalize, autocomplete:- auto complete do not work without name, novalidate -->
         <!-- method: get :: tells the browser  to send data via URL -->
         <!-- method: post :: tells the browser to send data via HTTP POST method -->
-        <form method="post" action="index.html">
+        <form method="get" action="index.html">
             <div>
                 <label for="name">Name</label>
-                <input id="name" type="text" name="name" placeholder="Enter your name" required autofocus/>
+                <input id="name" type="text" name="name" placeholder="Enter your name" required autofocus autocomplete="on" autocapitalize="on"/>
             </div>
             <div>
                 <label for="pass">Password</label>
