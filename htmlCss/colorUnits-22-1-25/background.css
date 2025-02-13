@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* background-color 
+background-image 
+background-repeat: tepeat | no-repeat | repeat-x | repeat-y
+background-attachment: scroll | fixed
+background-position: top left | top right | bottom left | bottom right | center
+background-size: cover | contain */
+
+/* if attachment is fixed the img position postiontined to our veiwport
+if attachment is sroll the img position postiontined to our body */
+
+body{
+    background-color: blanchedalmond;
+    background-image: url(../Images/img1.avif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+    /* background: blanchedalmond url(../Images/img1.avif) no-repeat scroll center / cover; */
+}
+
+.news{
+    padding: 5rem 0;
+}
+
+.news:nth-of-type(2n + 1){
+    background-color: white;
+    background-repeat: no-repeat;
+}

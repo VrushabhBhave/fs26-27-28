@@ -2,36 +2,52 @@
     color: red;
 } */
 
+
+
 /* ul li{
     color: red;
 } */
 
+/* class selector */
 /* .red{
     color: red;
 } */
 
-/* .redColor li{
+/* .redColor{
     color: red;
 } */
 
-/* Grouping Selectors */
-/* .redColor li, h2{
+/* id selector */
+/* #redColor li{
     color: red;
 } */
 
-/* Descendent combinator (space)
-Child combinator (>)
-Next sibling combinator (+)
-Subsequent-sibling combinator (~) */
+/* grouping selector */
+/* #redColor li, h2{
+    color: red;
+} */
 
-.top h1{
-    font-size: 50px;
-}
-
-.top > h1{
+/* Child combinator  ( > ) */
+/* Descendant combinator (space) */
+/* direct child  */
+/* .top > h1{
     color: purple;
 }
 
 .top > ul > h1{
-    border: 2px solid black;
+    border: 2px solid;
 }
+
+.top > ul > h1{
+    border: 2px solid;
+} */
+
+/* sibling combinator (+) */
+/* subsequent-sibling combinator (~) */
+/* h1 + p{
+    color: red;
+}
+
+h1 ~ p{
+    color: purple;
+} */

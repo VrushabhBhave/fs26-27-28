@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* text-decoration: none | underline | overline | line-through
+text-align: left | right | center | justify
+text-transform: none | uppercase | lowercase | capatialized
+line-height: px or 1,2,3,4,5......
+font-family: 
+font-size: 
+font-style: italic | oblique
+font-weight:  */
+
+
+/* overflow 
+vertical-align
+gradient 
+box-shadow baki hey */
+
+p{
+    /* text-decoration: underline; */
+    /* text-align: justify; */
+    /* text-transform: uppercase; */
+    /* line-height: 2; */
+    /* font-size: 32px; */
+    font-style: italic;
+}
